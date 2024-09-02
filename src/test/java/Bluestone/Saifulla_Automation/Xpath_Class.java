@@ -1,10 +1,10 @@
 package Bluestone.Saifulla_Automation;
-
-public class addition {
+public class Xpath_Class {
 
 	public static void main(String[] args) {
+		
+	WebDriver driver = new ChromeDriver();
 
-        System.out.println("Saifulla");
 	}
 
 }
