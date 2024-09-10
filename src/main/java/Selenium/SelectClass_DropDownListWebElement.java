@@ -57,7 +57,7 @@ public class SelectClass_DropDownListWebElement {
 	       Thread.sleep(5000);
 	       sc.selectByValue("4");
 	       driver.close();
-	       System.out.println(5);
+	       
 		
 	}
 }
