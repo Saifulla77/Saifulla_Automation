@@ -13,7 +13,12 @@ public class Iframe_20 {
 		//SwitchTOF_By_WebElement();
 		
 	}
-
+    //Iframe: It is a WebPage With in a Web Page
+	//You can Switch to an Iframe by three....
+	//1.By ID or Name....
+	//2.By Element...
+	//3.By Index...
+	
 	private static void SwitchTOF_By_WebElement() {
 		   WebDriver driver = new ChromeDriver();
 		   driver.manage().window().maximize();

@@ -14,6 +14,11 @@ public class SelectClass_DropDownListWebElement {
 	//Select_By_Index();
 	
 	}
+	//Every DDL has  Tag Name of Select
+	//Select sc= new select(DDL WebElement)
+	//==>sc.selectByIndex();
+	//==>sc.selectByVisibleText();
+	//==>sc.selectByValue();
 	
 	private static void Select_By_Index() throws InterruptedException {
 		   WebDriver driver = new ChromeDriver();

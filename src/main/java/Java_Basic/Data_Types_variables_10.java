@@ -16,3 +16,6 @@ public class Data_Types_variables_10 {
 	}
 
 }
+     //Variables: Variables are the kind of containers which contain the vales
+
+     //Data type defines what type of Value is present inside a variable

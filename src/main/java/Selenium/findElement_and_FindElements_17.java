@@ -22,10 +22,10 @@ public class findElement_and_FindElements_17 {
 	       int count = allElements.size();
 	       System.out.println("Number of Elements in List"+count);
 	       Thread.sleep(5000);
-	       driver.close();
-	       
-	       
-	       
-	}
+	       driver.close();         
+    }
 
 }
+  //Find Element:It will find Only Single first WebElement matching the Xpath.The Return type of this is WebElement
+
+  //FindElements:It will find all the WebElements matching the Xpath.The Return type for this will be List of webElements.

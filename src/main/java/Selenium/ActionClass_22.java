@@ -14,6 +14,7 @@ public class ActionClass_22 {
 		//Hover_Mouse();
 		//Drag_Drop();
   }
+	//Action class = To perform all the actions that you Can using Mouse we make use of Action Class
 
 	private static void Drag_Drop() throws InterruptedException {
 		   WebDriver driver = new ChromeDriver();

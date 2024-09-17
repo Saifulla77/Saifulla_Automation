@@ -15,9 +15,7 @@ public class WAITS_Selenium_21 {
 		Implicit_wait();
 		//Expliit_Wait();
 		
-	}
-
-	
+	}	
 	private static void Expliit_Wait() {
 		   WebDriver driver = new ChromeDriver();
 		   driver.manage().window().maximize();
@@ -26,8 +24,6 @@ public class WAITS_Selenium_21 {
 		   expWait.until(ExpectedCondition.visibilityof(Search));
 	}
 
-
-
 	private static void Implicit_wait() {
 		   WebDriver driver = new ChromeDriver();
 		   driver.manage().window().maximize();
@@ -35,3 +31,9 @@ public class WAITS_Selenium_21 {
 	       driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 	}
 }
+    //Implicit Wait:It is Global Wait.This is applicable for all the WebElement 
+    //Once it finds the Element within given Timeframe.Instead of waiting For total given time.It will proceed further
+    //Implicit Wait Syntax: Driver.manage.timeout.implicitwait(10,TimeUnit.Seconds);
+   
+    //Explicit Wait; This Wait is applicable for Single WebElement 
+    //Explicit Wait Syntax: WebDriverWait Expwait= new WebDriverWAit(driver,30);

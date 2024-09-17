@@ -24,11 +24,17 @@ public class Alerts_19 {
 	       Thread.sleep(3000);
 	       driver.switchTo().alert().accept();
 	       Thread.sleep(3000);
-	       driver.close();
-
-	       
-	       
-	       
+	       driver.close();     
 	}
 
 }
+     //They have Created an interface Call Alerts. Using this you handle the Alests in Web page.
+
+      //ALERTS Handdling
+  //1.Driver.switchTo.Alext.accept();-->ok/proceed
+  //2.Driver.swithTo.Alert.Dismiss();-->cancel /Do not proceed
+  //3.Driver.swithTo.Alert.sendkeys();-->Enter To Data into Text Box that is present inside an alert
+  //4.Driver.switchTo.Alert.getText();-->To Read Text from the Pop up Window 
+
+
+
